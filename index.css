@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: grey;
+}
+/* .search img{
+    width: 100px;
+    height: 100;
+    border: none;
+    position: relative;
+    top: 10%;
+} */
+.we{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 20%; 
+    border-radius: 50%;
+}
+
+.card{
+    
+    top: 0;
+    width: 90%;
+    height: 500px;
+    max-width: 470px;
+    background: linear-gradient(155deg,#00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 50px 65px;
+    text-align: center;
+}
+.temp{
+    /* font-size: x-large; */
+}
+
+.search{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 15px;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: larger;
+}
+.btn{
+    background-color: #5b548a;
+    width: 100px;
+    /* height: 30px; */
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.btn:hover{
+    /* background-color: darkcyan; */
+    /* border-radius: 0px 30px 0px 30px; */
+}
+.weather-icon{
+    position: relative;
+    top: 10% !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col1{
+    position: relative;
+    right: 40%;
+    top: 30%;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+.col{
+    font-size: large;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 57%;
+    bottom: 22%;
+    /* bottom: 100% !important; */
+}
+
+@media screen and (max-width:600px) {
+ .search input{
+    /* background-color: red; */
+    height: 40px;
+    width: 220px;
+
+ }
+    
+}
